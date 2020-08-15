@@ -1,0 +1,210 @@
+
+.background
+{
+  background-color: #000;
+
+  text-align: center;
+
+  width: 100vw;
+  height: 100vh;
+}
+
+.board
+{
+  position: relative;
+
+  background-color: transparent;
+
+  top: 10vh;
+  margin-left: auto;
+  margin-right: auto;
+
+  width: 70vh;
+  height: 70vh;
+
+  border: 0px solid #02f534;
+}
+
+.board-btn
+{
+  position: relative;
+
+  width: 30%;
+  height: 30%;
+  margin-left: -5px;
+  vertical-align: bottom;
+
+  font-family: coco-gothic;
+  font-weight: bold;
+  color: #fff;
+
+  padding-top: 1%;
+  font-size: 1000%;
+
+  text-shadow: 0px 0px 1px #fff;
+
+  border: 0px solid #ddd;
+  border-color: #fff;
+  background-color: transparent;
+}
+
+.board-btn:focus
+{
+  -moz-animation: fade-in-out 0.2s ease-in-out backwards;
+}
+
+@-moz-keyframes fade-in-out
+{
+	0%
+  {
+    font-size: 200%;
+	}
+	25%
+  {
+    font-size: 300%;
+	}
+  50%
+  {
+    font-size: 500%;
+  }
+  75%
+  {
+    font-size: 750%;
+  }
+	100%
+  {
+    font-size: 1000%;
+	}
+}
+
+button::-moz-focus-inner
+{
+  border: 0;
+}
+
+.top
+{
+  border-top-width: 1px;
+}
+
+.bottom
+{
+  border-bottom-width: 1px;
+}
+
+.right
+{
+  border-right-width: 1px;
+}
+
+.left
+{
+  border-left-width: 1px;
+}
+
+.score-board
+{
+  position: relative;
+
+  width: 70vh;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.id-label
+{
+  position: relative;
+
+  top: 10vh;
+  padding-left: 5%;
+  padding-right: 5%;
+
+  font-family: watchword;
+  font-size: 380%;
+  color: #fff;
+  border-color: #fff;
+}
+
+.right-border
+{
+  border-right: 1px solid #fff;
+}
+
+.score-div
+{
+  position: relative;
+
+  width: 30%;
+}
+
+.score-label
+{
+  position: relative;
+
+  top: 10vh;
+  width: 25%;
+  padding-left: 2%;
+  padding-right: 2%;
+
+  font-family: give-it;
+  font-size: 180%;
+  color: #888;
+  border-color: #fff;
+}
+
+.spam-score
+{
+  font-size: 150%;
+}
+
+.blink
+{
+  -moz-animation: blink 0.5s infinite ;
+}
+
+.blink:focus
+{
+  -moz-animation: blink 0.5s infinite ;
+}
+
+@-moz-keyframes blink
+{
+  0%
+  {
+    color: rgb(255, 255, 255);
+  }
+  80%
+  {
+    color: rgb( 0, 0 , 0 );
+  }
+}
+
+.opt-btn
+{
+  position: relative;
+
+  top: 13vh;
+
+  padding-left: 2vh !important;
+  padding-right: 2vh !important;
+  padding-top: 1vh !important;
+  padding-bottom: 1vh !important;
+
+  font-family: adlanta;
+
+  background-color: #000;
+  border: 1px solid #fff !important;
+  color: #FFF !important;
+
+  transition: all 0.5s ease;
+}
+
+x-players
+{
+}
+
+.opt-btn:hover
+{
+  background-color: #FFF;
+  color: #000 !important;
+}

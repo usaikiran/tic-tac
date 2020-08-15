@@ -1,0 +1,54 @@
+
+<html>
+
+<head>
+
+    <link rel="stylesheet" href="css/tic-tac.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  	<script src="js/jquery-linedtextarea.js"></script>
+
+    <script type="text/javascript" src="js/tic-tac.js"></script>
+
+    <title>tic-tac-toe</title>
+    <meta charset="windows-1252">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+
+<body>
+  <div class="background">
+
+  <div class="board">
+
+    <button type="button" id="0,0" class="board-btn right bottom" onclick="btn_click(0,0)"></button>
+    <button type="button" id="0,1" class="board-btn left bottom right" onclick="btn_click(0,1)"></button>
+    <button type="button" id="0,2" class="board-btn left bottom" onclick="btn_click(0,2)"></button>
+
+    <button type="button" id="1,0" class="board-btn top bottom right" onclick="btn_click(1,0)"></button>
+    <button type="button" id="1,1" class="board-btn top bottom right left" onclick="btn_click(1,1)"></button>
+    <button type="button" id="1,2" class="board-btn top bottom left" onclick="btn_click(1,2)"></button>
+
+    <button type="button" id="2,0" class="board-btn top right" onclick="btn_click(2,0)"></button>
+    <button type="button" id="2,1" class="board-btn left top right" onclick="btn_click(2,1)"></button>
+    <button type="button" id="2,2" class="board-btn left top" onclick="btn_click(2,2)"></button>
+
+  </div>
+
+  <div class="score-board">
+
+    <label class="score-label" id="label-player-1"><spam id="spam-player-1">you</spam> ( O ) </br> <spam class="spam-score" id="player-1">0</spam></label>
+    <label class="score-label">ties </br> <spam class="spam-score" id="ties">0</spam></label>
+    <label class="score-label" id="label-player-2"><spam id="spam-player-2"m>me</spam> ( X ) </br> <spam class="spam-score" id="player-2">0</spam></label>
+
+  </div>
+
+  <button type="button" id="x-players" class="btn opt-btn" onclick="x_players()">multi-players</button>
+  </div>
+
+</body>
+
+</html>

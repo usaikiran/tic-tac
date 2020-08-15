@@ -1,0 +1,47 @@
+@font-face
+{
+  font-family: watchword;
+  src: url( ../fonts/Watchword_regular.otf ) format( "opentype" );
+}
+
+@font-face
+{
+  font-family: fax-sans;
+  src: url( ../fonts/Fax_Sans.otf ) format( "opentype" );
+}
+
+@font-face
+{
+  font-family: watchword-hairline;
+  src: url( ../fonts/Watchword_hairline.otf ) format( "opentype" );
+}
+
+@font-face
+{
+  font-family: adlanta;
+  src: url( ../fonts/Adlanta.otf ) format( "opentype" );
+}
+
+@font-face
+{
+  font-family: gotham-medium;
+  src: url( ../fonts/GothamRounded-Medium.otf ) format( "opentype" );
+}
+
+@font-face
+{
+  font-family: gotham-light;
+  src: url( ../fonts/GothamRounded-Light.otf ) format( "opentype" );
+}
+
+@font-face
+{
+  font-family: give-it;
+  src: url( ../fonts/Give-It.ttf ) format( "truetype" );
+}
+
+@font-face
+{
+  font-family: coco-gothic;
+  src: url( ../fonts/Coco-Gothic-Regular.ttf ) format( "truetype" );
+}
